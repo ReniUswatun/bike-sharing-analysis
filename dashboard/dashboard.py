@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load dataset
-df_raw = pd.read_csv("main_data.csv")
+df_raw = pd.read_csv("https://raw.githubusercontent.com/Rakishu02/Bike-Sharing/refs/heads/main/submission/dashboard/main_data.csv")
 df_time = df_raw.copy()
 df_time['dteday'] = pd.to_datetime(df_time['dteday'])
 df_time['hr'] = pd.to_timedelta(df_time['hr'], unit='h')
