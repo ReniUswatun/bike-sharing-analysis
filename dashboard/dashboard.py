@@ -22,7 +22,7 @@ df['workingday'] = df['workingday'].map({0: 'Tidak', 1: 'Ya'})
 
 # Sidebar untuk pertanyaan
 
-st.sidebar.title('Pertanyaan')
+st.sidebar.title('Bike Sharing Pertanyaan Bisnis')
 st.sidebar.markdown('Pilih pertanyaannya:')
 
 data_choices = st.sidebar.selectbox(

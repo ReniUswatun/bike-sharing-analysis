@@ -23,3 +23,7 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard.py
 ```
+
+## Link Deploy
+
+https://reniuswatun-bike-sharing-analysisi.streamlit.app/
